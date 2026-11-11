@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Build feed.xml (RSS 2.0) from data.json for the SharePoint sync flow.
 Each <item>: <title> = record id, <description> = JSON body ready for the
-SharePoint REST API (list «مرصد الفرص», internal field names). Run from the repo root."""
+SharePoint REST API (list «مرصد الفرص», internal field names). Run from the repo root.
+Optional tools/times.json: {"<id>": ["HH:MM start", "HH:MM end"]} for events with a known time (Dubai)."""
 import json, datetime as D
 from xml.sax.saxutils import escape
 PATH = {"فعالية": "حضور", "تحدث": "مشارك"}
 d = json.load(open("data.json", encoding="utf-8"))
-def dt(v): return (v + "T00:00:00+04:00") if v else None
+import os
+T = json.load(open("tools/times.json", encoding="utf-8")) if os.path.exists("tools/times.json") else {}
+def dt(v, t="00:00"): return (v + "T" + t + ":00+04:00") if v else None
 def url(v): return {"Url": v, "Description": v[:250]} if v else None
 items = []
 now = D.datetime.now(D.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
@@ -17,7 +20,8 @@ for r in d["opps"]:
         "EntityType": r.get("etype"), "Emirate": r.get("emirate"),
         "MainDomain": doms[0] if doms else None, "Domains": doms,
         "Path": PATH.get(r.get("path"), r.get("path")), "OppType": r.get("type"),
-        "StartDate": dt(r.get("start")), "EndDate": dt(r.get("end")), "Deadline": dt(r.get("deadline")),
+        "StartDate": dt(r.get("start"), T.get(r["_id"], ["00:00"])[0]),
+        "EndDate": dt(r.get("end") or (r.get("start") if r["_id"] in T else None), T.get(r["_id"], ["", "00:00"])[1]), "Deadline": dt(r.get("deadline")),
         "Status": r.get("status"), "Verification": r.get("verify"),
         "AwardKinds": r.get("awardKind") or [], "AwardWindow": r.get("window"),
         "OfficialURL": url(r.get("orgUrl")), "SourceURL": url(r.get("url")),
