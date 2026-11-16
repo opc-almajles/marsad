@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-16",
  "opps": [
   {
    "title": "ملتقى الشركاء والمشاركة الرقمية",
@@ -13,11 +13,11 @@
    "path": "حضور",
    "type": "ملتقى",
    "start": "2026-11-12",
-   "status": "قيد التحقق",
+   "status": "مغلق",
    "verify": "مبدئي",
    "orgUrl": "https://shorturl.at/QRcve",
    "url": "https://www.instagram.com/p/DfWhcG8RekG/",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "_id": "9uogcxh1xrfns75hxl5c"
   },
   {
@@ -30,11 +30,11 @@
    "type": "معرض",
    "start": "2026-11-04",
    "end": "2026-11-15",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://sibf.com",
    "url": "https://www.khaleejtimes.com/uae/sharjah-international-book-fair-2026-november-4-to-15",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "_id": "OPP-00001"
   },
   {
@@ -117,7 +117,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.dubaifuture.ae/dubai-future-forum-2026",
    "url": "https://www.wam.ae/en/article/c210gy4-dubai-future-week-held-from-november-2026",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "_id": "OPP-00007"
   },
   {
@@ -168,7 +168,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.gitex.com/gitex-global-2026",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "_id": "OPP-00011"
   },
   {
@@ -200,7 +200,7 @@
    "verify": "غير مؤكد",
    "orgUrl": "https://arabmediasummit.ae/",
    "url": "https://arabmediasummit.ae/media-center/news",
-   "checked": "2026-11-12",
+   "checked": "2026-11-16",
    "_id": "OPP-00014"
   },
   {
@@ -384,7 +384,7 @@
    "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "url": "https://www.albayan.ae/news/uae/education/1544689",
-   "checked": "2026-11-12",
+   "checked": "2026-11-16",
    "_id": "OPP-00029"
   },
   {
@@ -1579,10 +1579,10 @@
    "type": "دورة",
    "start": "2026-11-11",
    "end": "2026-11-12",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://u.dscd.ae/3gstr01",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "_id": "OPP-00117"
   },
   {
@@ -2393,11 +2393,11 @@
    "type": "منتدى",
    "start": "2026-11-12",
    "end": "2026-11-12",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://ssj.ae/ar/registration/",
    "url": "https://ssj.ae/ar/",
-   "checked": "2026-11-05",
+   "checked": "2026-11-16",
    "_id": "OPP-00170"
   },
   {
@@ -2571,7 +2571,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-12",
+   "checked": "2026-11-16",
    "_id": "OPP-00179"
   },
   {
@@ -2592,7 +2592,7 @@
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-12",
+   "checked": "2026-11-16",
    "_id": "OPP-00180"
   },
   {
@@ -2612,7 +2612,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-12",
+   "checked": "2026-11-16",
    "_id": "OPP-00181"
   },
   {
@@ -2633,7 +2633,7 @@
    "awardKind": [
     "مقالات"
    ],
-   "checked": "2026-11-12",
+   "checked": "2026-11-16",
    "_id": "OPP-00183"
   },
   {
@@ -2722,11 +2722,11 @@
    "type": "مؤتمر",
    "start": "2026-11-12",
    "end": "2026-11-12",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://trendsgroup.org/social-transformations-conference/?lang=ar",
    "url": "https://trendsgroup.org/ar/events/",
-   "checked": "2026-11-06",
+   "checked": "2026-11-16",
    "_id": "OPP-00190"
   },
   {
@@ -2846,11 +2846,11 @@
    "type": "مؤتمر",
    "start": "2026-11-12",
    "end": "2026-11-12",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://mbrsg-ranepa.evsreg.com/",
    "url": "https://www.instagram.com/p/DfSM0VEiP7B/",
-   "checked": "2026-11-06",
+   "checked": "2026-11-16",
    "_id": "OPP-00197"
   },
   {
@@ -3036,11 +3036,11 @@
    "type": "ورشة",
    "start": "2026-11-12",
    "end": "2026-11-12",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مبدئي",
    "orgUrl": "https://www.uaeu.ac.ae",
    "url": "https://www.uaeu.ac.ae",
-   "checked": "2026-11-11",
+   "checked": "2026-11-16",
    "_id": "OPP-00206"
   },
   {
@@ -3077,11 +3077,11 @@
    "type": "ورشة",
    "start": "2026-11-12",
    "end": "2026-11-12",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.hilt.ae",
    "url": "https://www.hilt.ae",
-   "checked": "2026-11-11",
+   "checked": "2026-11-16",
    "_id": "OPP-00208"
   },
   {
@@ -3097,9 +3097,9 @@
    "type": "دورة",
    "start": "2026-11-11",
    "end": "2026-11-12",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مبدئي",
-   "checked": "2026-11-11",
+   "checked": "2026-11-16",
    "_id": "OPP-00209"
   },
   {
@@ -3138,6 +3138,43 @@
    "verify": "مؤكد رسمياً",
    "checked": "2026-11-12",
    "_id": "OPP-00211"
+  },
+  {
+   "title": "ورشة افتراضية: تفسير معايير البحث التربوي – الدورة الخامسة 2026–2027",
+   "organizer": "مجلس أولياء أمور الطلبة بمدينة الشارقة – دائرة شؤون الضواحي",
+   "etype": "محلية",
+   "emirate": "الشارقة",
+   "domain": "التعليم",
+   "domains": [
+    "التعليم"
+   ],
+   "path": "حضور",
+   "type": "ورشة",
+   "start": "2026-11-17",
+   "end": "2026-11-17",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "checked": "2026-11-16",
+   "_id": "OPP-00212"
+  },
+  {
+   "title": "حوار مفتوح: الأمن الإقليمي ودور الأمم المتحدة – منطقة الخليج في ظل الانقسامات الدولية",
+   "organizer": "أكاديمية أنور قرقاش الدبلوماسية بالتعاون مع Anadyr Horizon",
+   "etype": "اتحادية",
+   "emirate": "أبوظبي",
+   "domain": "الشؤون الخارجية",
+   "domains": [
+    "الشؤون الخارجية",
+    "الشؤون الأمنية"
+   ],
+   "path": "حضور",
+   "type": "جلسة حوارية",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "checked": "2026-11-16",
+   "_id": "OPP-00213"
   }
  ]
 }
