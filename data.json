@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "opps": [
   {
    "title": "ملتقى الشركاء والمشاركة الرقمية",
@@ -2811,7 +2811,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://ra.ac.ae/en/media/news/rabdan-security-and-defence-institute-to-host-middle-east-defence-conference-2026-in-emirate",
    "url": "https://ra.ac.ae/en/media/news/rabdan-security-and-defence-institute-to-host-middle-east-defence-conference-2026-in-emirate",
-   "checked": "2026-11-06",
+   "checked": "2026-11-17",
    "_id": "OPP-00195"
   },
   {
@@ -3037,10 +3037,10 @@
    "start": "2026-11-12",
    "end": "2026-11-12",
    "status": "مغلق",
-   "verify": "مبدئي",
+   "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.uaeu.ac.ae",
    "url": "https://www.uaeu.ac.ae",
-   "checked": "2026-11-16",
+   "checked": "2026-11-17",
    "_id": "OPP-00206"
   },
   {
@@ -3175,6 +3175,45 @@
    "verify": "مؤكد رسمياً",
    "checked": "2026-11-16",
    "_id": "OPP-00213"
+  },
+  {
+   "title": "مؤتمر الشرق الأوسط للدفاع 2026",
+   "organizer": "مركز ربدان للأمن والدفاع (أكاديمية ربدان).",
+   "etype": "محلية",
+   "emirate": "أبوظبي",
+   "domain": "الشؤون الأمنية",
+   "domains": [
+    "الشؤون الأمنية",
+    "الشؤون الخارجية"
+   ],
+   "path": "حضور",
+   "type": "مؤتمر",
+   "start": "2026-11-19",
+   "status": "قيد التحقق",
+   "verify": "مبدئي",
+   "orgUrl": "https://ra.ac.ae/ar",
+   "url": "https://ra.ac.ae/ar",
+   "_id": "2besk14zworx98qor2bv"
+  },
+  {
+   "title": "مؤتمر سمو الشيخة فاطمة بنت مبارك للذكاء المجتمعي – «هويتنا إرث… وانتماؤنا امتداد»",
+   "organizer": "مؤسسة التنمية الأسرية – برنامج سمو الشيخة فاطمة بنت مبارك للتميز والذكاء المجتمعي",
+   "etype": "محلية",
+   "emirate": "أبوظبي",
+   "domain": "الشؤون الاجتماعية",
+   "domains": [
+    "الشؤون الاجتماعية",
+    "الثقافة"
+   ],
+   "path": "حضور",
+   "type": "مؤتمر",
+   "start": "2026-11-17",
+   "end": "2026-11-18",
+   "status": "مفتوح",
+   "verify": "مبدئي",
+   "url": "https://www.albayan.ae/news/uae/1562803",
+   "checked": "2026-11-17",
+   "_id": "OPP-00214"
   }
  ]
 }
