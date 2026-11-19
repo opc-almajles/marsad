@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-19",
  "opps": [
   {
    "title": "ملتقى الشركاء والمشاركة الرقمية",
@@ -79,11 +79,11 @@
    "type": "مؤتمر",
    "start": "2026-11-16",
    "end": "2026-11-18",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.worldpolicesummit.com",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-05",
+   "checked": "2026-11-19",
    "_id": "OPP-00005"
   },
   {
@@ -100,7 +100,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://thesignal.ae/ar",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-05",
+   "checked": "2026-11-17",
    "_id": "OPP-00006"
   },
   {
@@ -134,7 +134,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://rakenergysummit.rak.ae/",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-05",
+   "checked": "2026-11-17",
    "_id": "OPP-00008"
   },
   {
@@ -200,7 +200,7 @@
    "verify": "غير مؤكد",
    "orgUrl": "https://arabmediasummit.ae/",
    "url": "https://arabmediasummit.ae/media-center/news",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "_id": "OPP-00014"
   },
   {
@@ -272,11 +272,11 @@
    "type": "مؤتمر",
    "start": "2026-11-17",
    "end": "2026-11-18",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://mbrf.ae/knowledgesummit/en/news/mbrf-and-undp-to-organize-11th-knowledge-summit-in-november-2026",
    "url": "https://mbrf.ae/en/news/mbrf-and-undp-to-organize-11th-knowledge-summit-in-november-2026",
-   "checked": "2026-11-05",
+   "checked": "2026-11-19",
    "_id": "OPP-00019"
   },
   {
@@ -289,11 +289,11 @@
    "type": "مؤتمر",
    "start": "2026-11-26",
    "end": "2026-11-28",
-   "status": "مفتوح",
-   "verify": "مؤكد رسمياً",
+   "status": "قيد التحقق",
+   "verify": "تعارض",
    "orgUrl": "https://www.mediaoffice.abudhabi/en/abu-dhabi-events/global-media-congress/",
    "url": "https://www.mediaoffice.abudhabi/en/abu-dhabi-events/global-media-congress/",
-   "checked": "2026-11-05",
+   "checked": "2026-11-19",
    "_id": "OPP-00020"
   },
   {
@@ -384,7 +384,7 @@
    "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "url": "https://www.albayan.ae/news/uae/education/1544689",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "_id": "OPP-00029"
   },
   {
@@ -1787,13 +1787,16 @@
    "title": "قمة الأثر المجتمعي 2026 (Majra Impact Summit)",
    "organizer": "مجرة – الصندوق الوطني للمسؤولية المجتمعية",
    "etype": "اتحادية",
+   "emirate": "دبي",
    "domain": "الشؤون الاجتماعية",
    "path": "فعالية",
    "type": "قمة",
-   "status": "قيد التحقق",
-   "verify": "مبدئي",
-   "url": "https://www.wam.ae/en/article/15vq5we-majra-launches-2025-impact-summit-abu-dhabi",
-   "checked": "2026-11-05",
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "url": "https://www.emaratalyoum.com/business/local/2026-11-12-1.2102141",
+   "checked": "2026-11-19",
    "_id": "OPP-00131"
   },
   {
@@ -2571,7 +2574,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "_id": "OPP-00179"
   },
   {
@@ -2592,7 +2595,7 @@
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "_id": "OPP-00180"
   },
   {
@@ -2612,7 +2615,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "_id": "OPP-00181"
   },
   {
@@ -2633,7 +2636,7 @@
    "awardKind": [
     "مقالات"
    ],
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "_id": "OPP-00183"
   },
   {
@@ -2766,11 +2769,11 @@
    "type": "جلسة حوارية",
    "start": "2026-11-17",
    "end": "2026-11-17",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.agda.ac.ae/ar/media-centre/agda-events/event-registration-intercultural-relations-exchange-between-uae-and-usa-public",
    "url": "https://www.agda.ac.ae/ar/media-centre/agda-events",
-   "checked": "2026-11-06",
+   "checked": "2026-11-18",
    "_id": "OPP-00192"
   },
   {
@@ -2978,7 +2981,7 @@
    "verify": "مبدئي",
    "orgUrl": "https://www.dfwac.ae",
    "url": "https://www.dfwac.ae",
-   "checked": "2026-11-11",
+   "checked": "2026-11-17",
    "_id": "OPP-00203"
   },
   {
@@ -3115,9 +3118,9 @@
    "type": "منتدى",
    "start": "2026-11-16",
    "end": "2026-11-16",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مبدئي",
-   "checked": "2026-11-12",
+   "checked": "2026-11-17",
    "_id": "OPP-00210"
   },
   {
@@ -3134,9 +3137,9 @@
    "type": "جلسة حوارية",
    "start": "2026-11-16",
    "end": "2026-11-16",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
-   "checked": "2026-11-12",
+   "checked": "2026-11-17",
    "_id": "OPP-00211"
   },
   {
@@ -3152,9 +3155,9 @@
    "type": "ورشة",
    "start": "2026-11-17",
    "end": "2026-11-17",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
-   "checked": "2026-11-16",
+   "checked": "2026-11-18",
    "_id": "OPP-00212"
   },
   {
@@ -3173,7 +3176,7 @@
    "end": "2026-11-20",
    "status": "مفتوح",
    "verify": "مؤكد رسمياً",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "_id": "OPP-00213"
   },
   {
@@ -3190,11 +3193,115 @@
    "type": "مؤتمر",
    "start": "2026-11-17",
    "end": "2026-11-18",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مبدئي",
    "url": "https://www.albayan.ae/news/uae/1562803",
-   "checked": "2026-11-17",
+   "checked": "2026-11-19",
    "_id": "OPP-00214"
+  },
+  {
+   "title": "ورشة: الذكاء الثقافي والوعي بالتنوع (Cultural Intelligence & Diversity Awareness)",
+   "organizer": "مؤسسة الشيخ سعود بن صقر القاسمي لبحوث السياسات",
+   "etype": "محلية",
+   "emirate": "رأس الخيمة",
+   "domain": "الثقافة",
+   "domains": [
+    "الثقافة",
+    "الشؤون الاجتماعية"
+   ],
+   "path": "حضور",
+   "type": "ورشة",
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "orgUrl": "https://www.alqasimifoundation.com/learning-development-workshops",
+   "url": "https://www.alqasimifoundation.com/learning-development-workshops",
+   "checked": "2026-11-17",
+   "_id": "OPP-00215"
+  },
+  {
+   "title": "القمة العالمية للرياضة – الدورة الثانية «نوحّد العالم عبر الرياضة»",
+   "organizer": "مجلس دبي الرياضي",
+   "etype": "محلية",
+   "emirate": "دبي",
+   "domain": "الرياضة",
+   "domains": [
+    "الرياضة",
+    "الشباب"
+   ],
+   "path": "حضور",
+   "type": "مؤتمر",
+   "start": "2026-12-28",
+   "end": "2026-12-29",
+   "status": "قيد التحقق",
+   "verify": "مؤكد رسمياً",
+   "orgUrl": "https://www.worldsportssummit.org/en",
+   "url": "https://www.emaratalyoum.com/sports/arab-and-international/2026-06-25-1.2058933",
+   "checked": "2026-11-18",
+   "_id": "OPP-00216"
+  },
+  {
+   "title": "القمة الثقافية أبوظبي 2026 – الدورة الثامنة «في إعادة تخيّل المشترك»",
+   "organizer": "دائرة الثقافة والسياحة – أبوظبي",
+   "etype": "محلية",
+   "emirate": "أبوظبي",
+   "domain": "الثقافة",
+   "domains": [
+    "الثقافة",
+    "السياحة"
+   ],
+   "path": "حضور",
+   "type": "مؤتمر",
+   "start": "2026-12-08",
+   "end": "2026-12-10",
+   "status": "مفتوح",
+   "verify": "مبدئي",
+   "orgUrl": "https://abudhabiculture.ae/ar/cultural-programmes/symposiums-and-conferences/culture-summit",
+   "url": "https://www.albayan.ae/lifestyle/culture/1551478",
+   "checked": "2026-11-19",
+   "_id": "OPP-00217"
+  },
+  {
+   "title": "منتدى دبي الدولي لإدارة المشاريع – الدورة 12 «من الرؤية إلى الأثر»",
+   "organizer": "هيئة الطرق والمواصلات في دبي بالتعاون مع هيئة كهرباء ومياه دبي وإعمار ومعهد إدارة المشاريع (PMI)",
+   "etype": "محلية",
+   "emirate": "دبي",
+   "domain": "البنية التحتية والنقل والمواصلات",
+   "domains": [
+    "البنية التحتية والنقل والمواصلات",
+    "الاقتصاد"
+   ],
+   "path": "حضور",
+   "type": "منتدى",
+   "start": "2027-01-10",
+   "end": "2027-01-13",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "orgUrl": "https://www.dipmf.ae",
+   "url": "https://www.albayan.ae/news/uae/1558768",
+   "checked": "2026-11-18",
+   "_id": "OPP-00218"
+  },
+  {
+   "title": "ندوة افتراضية: من الشفاهة إلى الرقمية – تحديات حفظ اللهجات العربية في الذاكرة الجماعية",
+   "organizer": "معهد الشارقة للتراث – مركز التراث العربي (مركز تحت رعاية اليونسكو)",
+   "etype": "محلية",
+   "emirate": "الشارقة",
+   "domain": "الثقافة",
+   "domains": [
+    "الثقافة",
+    "الإعلام",
+    "الشباب"
+   ],
+   "path": "حضور",
+   "type": "ندوة",
+   "start": "2026-11-18",
+   "end": "2026-11-18",
+   "status": "مغلق",
+   "verify": "مؤكد رسمياً",
+   "checked": "2026-11-19",
+   "_id": "OPP-00219"
   }
  ]
 }
