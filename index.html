@@ -6,7 +6,8 @@
 <title>مرصد الفرص الحكومية الإماراتية</title>
 <meta name="description" content="فعاليات وجوائز ودعوات مشاركة من الجهات الحكومية الإماراتية ومراكز البحث — مكتب الثقافة البرلمانية">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#FFFFFF;--soft:#F6F7F9;--card:#FFFFFF;--line:#E6E8EC;--ink:#1C2430;--muted:#5A616B;--blue:#2A4098;--navy:#1B2A3D;--gold:#94722F;--gold2:#E2C27E;--goldsoft:#FBF3E2;--green:#23714A;--greensoft:#E7F3EC;--amber:#8A5A00;--ambersoft:#FBEFD6;--red:#9B2C22;--redsoft:#FCECEA;--aw:#1F5FA8;--awsoft:#E6EFFA;--pink:#C2417F;--shadow:0 10px 28px rgba(27,42,61,.08)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11151B;--soft:#171C23;--card:#1A2029;--line:#2A313C;--ink:#E8EAEE;--muted:#A3AAB5;--blue:#9DB0F2;--navy:#0D1520;--gold:#D9B66A;--goldsoft:#2B2416;--green:#7FD1A4;--greensoft:#16291F;--amber:#F0C46A;--ambersoft:#2E2412;--red:#F0928A;--redsoft:#2E1816;--aw:#8DB8F0;--awsoft:#142338;--shadow:none}}
@@ -191,6 +192,119 @@ footer b{font-family:'El Messiri';color:var(--blue);font-size:17px;display:block
 #sec-reg .tbl th:nth-child(7),#sec-reg .tbl td:nth-child(7){display:none}
 .pubnote{font-size:12.5px;color:var(--muted);text-align:center;margin:6px 0 0}
 </style>
+<style id="glass-theme">
+/* ===== Soft glass theme (overrides) — Almarai, navy + gold, logo left ===== */
+:root{--disp:'Almarai','IBM Plex Sans Arabic',system-ui,sans-serif;--card:rgba(255,255,255,.66);--glass:rgba(255,255,255,.58);--glass-hi:rgba(255,255,255,.86);--edge:rgba(255,255,255,.9);--hair:rgba(27,42,61,.09);--line:rgba(27,42,61,.10);--soft:rgba(42,64,152,.06);--field:rgba(255,255,255,.88);
+  --bg1:#E6EDFB;--bg2:#FBF3E2;--blob1:#C9D6F6;--blob2:#F4E2B8;--blob3:#DCE6FA;--grad:linear-gradient(135deg,#2A4098,#1B2A3D);--goldgrad:linear-gradient(90deg,#A07A2C,#D2A954);--shadow:0 18px 40px -26px rgba(27,42,61,.45);--blur:saturate(160%) blur(16px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--card:rgba(24,33,48,.62);--glass:rgba(24,33,48,.55);--glass-hi:rgba(30,41,60,.9);--edge:rgba(255,255,255,.08);--hair:rgba(255,255,255,.08);--line:rgba(255,255,255,.10);--soft:rgba(157,176,242,.08);--field:rgba(17,24,36,.8);--bg1:#0C1320;--bg2:#141B26;--blob1:rgba(60,84,170,.35);--blob2:rgba(217,182,106,.16);--blob3:rgba(42,64,152,.22);--grad:linear-gradient(135deg,#3A55B8,#16223A);--goldgrad:linear-gradient(90deg,#D9B66A,#F0D48F);--shadow:0 18px 40px -26px rgba(0,0,0,.8);color-scheme:dark}}
+:root[data-theme="dark"]{--card:rgba(24,33,48,.62);--glass:rgba(24,33,48,.55);--glass-hi:rgba(30,41,60,.9);--edge:rgba(255,255,255,.08);--hair:rgba(255,255,255,.08);--line:rgba(255,255,255,.10);--soft:rgba(157,176,242,.08);--field:rgba(17,24,36,.8);--bg1:#0C1320;--bg2:#141B26;--blob1:rgba(60,84,170,.35);--blob2:rgba(217,182,106,.16);--blob3:rgba(42,64,152,.22);--grad:linear-gradient(135deg,#3A55B8,#16223A);--goldgrad:linear-gradient(90deg,#D9B66A,#F0D48F);--shadow:0 18px 40px -26px rgba(0,0,0,.8);color-scheme:dark}
+
+html{background:var(--bg1)}
+body{font-family:var(--disp);background:
+  radial-gradient(900px 520px at 92% -8%,var(--blob1),transparent 62%),
+  radial-gradient(760px 520px at -6% 26%,var(--blob2),transparent 58%),
+  radial-gradient(820px 600px at 60% 108%,var(--blob3),transparent 60%),
+  linear-gradient(165deg,var(--bg1),var(--bg2));background-attachment:fixed;min-height:100%}
+h1,h2,h3,.h,.brand b,.kpi b,.op .t,.awc .tt,.tbl .tt,.auto .n,details.panel>summary,footer b{font-family:var(--disp)}
+h2{font-weight:800;letter-spacing:-.01em}
+:focus-visible{outline:2px solid #C9A04A;outline-offset:2px}
+
+/* glass surfaces */
+.card,.awsec,details.panel,.kpi{background:var(--glass);border:1px solid var(--edge);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);box-shadow:var(--shadow)}
+.card,.awsec{border-radius:24px}
+details.panel{border-radius:24px}
+
+/* top bar: floating glass pill */
+.top{background:transparent;border:0;padding:12px 0 0}
+.top .wrap{background:var(--glass-hi);border:1px solid var(--edge);border-radius:20px;-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);box-shadow:var(--shadow);padding:8px 14px;min-height:64px}
+.brand .ic{background:var(--grad);box-shadow:0 8px 18px -10px rgba(42,64,152,.8)}
+.nav a{border-radius:999px;padding:0 14px;color:var(--muted);font-weight:700}
+.nav a:hover{background:var(--field);color:var(--blue)}
+.office{border-radius:12px;box-shadow:0 6px 16px -12px rgba(27,42,61,.5)}
+
+/* hero */
+.hero{background:transparent;border:0}
+.hero .wrap{padding-top:40px;padding-bottom:18px}
+.pat{opacity:.05}
+.hero h1{font-size:44px;font-weight:800;line-height:1.25}
+.hero h1 em{background:var(--goldgrad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.kick{letter-spacing:.01em}
+.hero .today{background:var(--glass);border:1px solid var(--edge);border-radius:999px;padding:6px 14px;-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur)}
+
+/* KPIs */
+.kpis{gap:14px;margin-top:6px}
+.kpi{border-radius:22px;padding:18px;transition:transform .2s,box-shadow .2s}
+.kpi b{font-weight:800;font-size:32px;letter-spacing:-.02em}
+.kpi .ki{border-radius:14px}
+
+/* controls */
+.btn,.tabs button,.awk button{border-radius:999px;border-color:var(--edge);background:var(--field);font-weight:700}
+.btn:hover,.tabs button:hover,.awk button:hover{border-color:rgba(42,64,152,.35)}
+.btn.pri,.btn[aria-pressed="true"],.tabs button[aria-pressed="true"]{background:var(--grad);border-color:transparent;color:#fff;box-shadow:0 8px 18px -10px rgba(42,64,152,.9)}
+.awk button[aria-pressed="true"]{background:linear-gradient(135deg,#2F6FC0,#1F4F90);border-color:transparent}
+.filters select,.filters input,.form input,.form select,.form textarea,.sv select{background:var(--field);border:1px solid var(--edge);border-radius:14px;box-shadow:inset 0 1px 2px rgba(27,42,61,.06)}
+.filters input:focus,.filters select:focus,.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid rgba(42,64,152,.35);outline-offset:0}
+.chip{border-radius:999px;background:var(--soft)}
+.chip.c-ink{background:var(--grad)}
+
+/* calendar */
+.cal button{border-radius:14px}
+.cal button:hover{background:var(--field)}
+.cal button.sel{background:var(--grad);box-shadow:0 8px 16px -10px rgba(42,64,152,.9)}
+.cal button.today{outline:2px solid #D2A954}
+.daylist{border-top:1px dashed var(--hair)}
+
+/* opportunity rows */
+.op{border-top:1px solid var(--hair);padding:14px 10px;margin:0 -10px;border-radius:16px;transition:background .2s}
+.op:hover{background:var(--field)}
+.op .t{font-weight:700}
+.lg,.awlg{border-color:var(--edge);border-radius:16px;box-shadow:0 6px 14px -10px rgba(27,42,61,.45)}
+.star{border-radius:14px;border-color:var(--edge);background:var(--field)}
+
+/* charts */
+.bars .b i{background:var(--grad);border-radius:12px 12px 6px 6px}
+.bars .b:nth-child(3n+2) i{background:linear-gradient(180deg,#E2C27E,#B8913F)}
+.bars .b:nth-child(3n) i{background:linear-gradient(180deg,#5F93D6,#1F5FA8)}
+.hb .track{background:var(--soft)}
+
+/* awards */
+.awc{background:var(--glass-hi);border:1px solid var(--edge);border-radius:20px;box-shadow:var(--shadow);transition:transform .2s}
+.awc .tt{font-weight:800}
+
+/* table */
+.tbl th{border-bottom:1px solid var(--hair)}
+.tbl td{border-bottom:1px solid var(--hair)}
+.tbl tr.rw:hover td{background:var(--field)}
+.tbl .tt{font-weight:700}
+.sv,.al,.arow{border-top-color:var(--hair)}
+
+/* dialog, toast, footer */
+dialog{background:var(--glass-hi);border:1px solid var(--edge);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);border-radius:26px;box-shadow:0 30px 70px -30px rgba(15,22,32,.6)}
+dialog::backdrop{background:rgba(15,22,32,.35);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.toast{background:var(--grad);border-radius:999px;padding:10px 18px}
+footer{background:transparent;border:0;margin-top:30px}
+footer .wrap{background:var(--glass);border:1px solid var(--edge);border-radius:22px 22px 0 0;-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur)}
+footer b{font-weight:800}
+
+@media (prefers-reduced-motion:no-preference){.kpi:hover,.awc:hover{transform:translateY(-3px)}}
+@media (max-width:760px){.top{padding:8px 0 0}.top .wrap{border-radius:18px}.hero .wrap{padding-top:26px}.hero h1{font-size:32px}.kpi{padding:12px}.card,.awsec{border-radius:20px}}
+
+/* modern icon tiles */
+.lg.dom{box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 8px 18px -12px rgba(27,42,61,.7)}
+.kpi .ki{box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 8px 18px -14px rgba(27,42,61,.6)}
+
+/* invitation posters */
+.pst{flex:none;width:58px;border:1px solid var(--edge);border-radius:12px;padding:0;overflow:hidden;background:var(--field);cursor:pointer;position:relative;box-shadow:0 8px 18px -12px rgba(27,42,61,.6);transition:transform .2s}
+.pst img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover}
+.pst span{position:absolute;inset-inline:0;bottom:0;font-size:10.5px;font-weight:700;color:#fff;background:linear-gradient(0deg,rgba(15,22,32,.8),rgba(15,22,32,0));padding:8px 0 3px;text-align:center}
+.awcover{display:block;border:0;padding:0;margin:-16px -16px 4px;border-radius:20px 20px 0 0;overflow:hidden;cursor:pointer;background:var(--soft)}
+.awcover img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:top}
+.dpst{margin:0;display:flex;flex-direction:column;gap:6px;align-items:center}
+.dpst img{max-width:100%;max-height:62vh;border-radius:16px;box-shadow:0 18px 40px -22px rgba(15,22,32,.6)}
+.dpst figcaption{font-size:12.5px}
+@media (prefers-reduced-motion:no-preference){.pst:hover{transform:translateY(-2px) rotate(-1deg)}}
+@media (max-width:560px){.pst{width:46px}}
+</style>
 </head>
 <body>
 <header class="top">
@@ -334,9 +448,9 @@ const STG_EV=["مهتم","قيد الدراسة","تم التسجيل","تمت �
 const W={rel:35,val:30,org:20,time:15};
 const REL={"الشؤون التشريعية والطعون":1,"الشؤون الخارجية":.8,"المالية":.75,"الاقتصاد":.7,"الشؤون الاجتماعية":.7,"التعليم":.7,"الإعلام":.7,"الموارد البشرية والتوطين والعمل والعمال":.65,"الشؤون الأمنية":.65,"السكان":.65};
 const RESEARCH=["تريندز","مركز الإمارات للدراسات","مركز الإمارات للسياسات","أكاديمية أنور قرقاش","كلية محمد بن راشد","مؤسسة الشيخ سعود","القاسمي لبحوث","أكاديمية ربدان","معهد دبي القضائي","مؤسسة دبي للمستقبل"];
-const DCOL={"الشؤون التشريعية والطعون":["#5A441A","#F1DFAE"],"الشؤون الخارجية":["#1D3B52","#9FC3DD"],"التعليم":["#24564A","#BFE2D2"],"الإعلام":["#3B2E5A","#D5C8F0"],"الشؤون الأمنية":["#26313F","#C9D2DE"],"الثقافة":["#8A4B21","#F6D9B8"],"البيئة والثروات الطبيعية":["#14506B","#BCE3F2"],"الشؤون الاجتماعية":["#7A5D22","#F6E7C4"],"السكان":["#7A5D22","#F6E7C4"]};
-const ICON={gov:'M3 21h18M5 21V10M19 21V10M9 21v-7M15 21v-7M2 10l10-6 10 6',globe:'M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18',edu:'M2 9l10-5 10 5-10 5-10-5zM6 11v5c3 2.5 9 2.5 12 0v-5',media:'M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM5 11a7 7 0 0 0 14 0M12 18v3',shield:'M12 3l8 3v6c0 4.5-3.5 8-8 9-4.5-1-8-4.5-8-9V6l8-3z',bulb:'M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.8.6 1.5 1.5 1.5 2.6V17h4v-.5c0-1.1.7-2 1.5-2.6A6 6 0 0 0 12 3z',drop:'M12 3c3.5 4.5 6 8 6 11a6 6 0 0 1-12 0c0-3 2.5-6.5 6-11z',people:'M9 8a3 3 0 1 0 0-.01M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M17 9a2.5 2.5 0 1 0 0-.01M15 14.5c2.8 0 6 1.8 6 5.5',law:'M12 3v18M7 21h10M5 7h14M5 7l-3 7a3 3 0 0 0 6 0L5 7zM19 7l-3 7a3 3 0 0 0 6 0l-3-7z',trophy:'M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 21h8'};
-const DICON={"الشؤون التشريعية والطعون":"law","الشؤون الخارجية":"globe","التعليم":"edu","الإعلام":"media","الشؤون الأمنية":"shield","الثقافة":"bulb","البيئة والثروات الطبيعية":"drop","الشؤون الاجتماعية":"people","السكان":"people","الصناعة والتقنية":"bulb"};
+const DCOL={"الشؤون التشريعية والطعون": ["#6B4F1A", "#B8913F", "#FFF3D6"], "المالية": ["#1E5B4A", "#3E9A7C", "#E2F6EE"], "الاقتصاد": ["#24427E", "#4C74C9", "#E3ECFF"], "الصناعة والتقنية": ["#2B3A67", "#5B6FB8", "#E6EAFF"], "البنية التحتية والنقل والمواصلات": ["#3A4452", "#6E7B8E", "#EEF2F7"], "الطاقة": ["#7A4A12", "#D08B2C", "#FFF0DA"], "الموارد البشرية والتوطين والعمل والعمال": ["#2F4B6E", "#5C83B5", "#E5EEFA"], "السكن والإسكان": ["#5B3E2B", "#9C6B4B", "#F8EBE1"], "البيئة والثروات الطبيعية": ["#1D5C46", "#3FA07A", "#E0F5EC"], "التعليم": ["#1F5A55", "#3C9A90", "#DDF4F1"], "الثقافة": ["#7C3B23", "#C46A43", "#FCE9DF"], "الشباب": ["#4A2F7A", "#8A63C9", "#EFE7FF"], "الرياضة": ["#14566E", "#2F9CC0", "#DDF3FB"], "الإعلام": ["#3E2E68", "#7A62B8", "#ECE6FF"], "السياحة": ["#145E73", "#2AA3B8", "#DCF5F9"], "الصحة": ["#7A2338", "#C9566F", "#FDE6EC"], "الشؤون الاجتماعية": ["#6E5320", "#B48C3C", "#FBF0D8"], "الشؤون الإسلامية والأوقاف": ["#1E5640", "#3F9468", "#E2F4EA"], "الشؤون الأمنية": ["#26313F", "#56667D", "#E6ECF3"], "الشؤون الخارجية": ["#1B3E5C", "#3F78A8", "#E0EDF9"], "السكان": ["#5A4A1E", "#A08A40", "#F8F0D8"]};
+const ICON={"gov": "M3 21h18M4 21V10.5M20 21V10.5M8 21v-6M12 21v-6M16 21v-6M2.5 10.5L12 4l9.5 6.5", "law": "M12 3v18M8 21h8M4 7h16M4 7l-2.5 6a3 3 0 0 0 5 0L4 7zM20 7l-2.5 6a3 3 0 0 0 5 0L20 7zM12 3l-1.5 1.5h3L12 3", "money": "M3 6h18v12H3zM12 9.5a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5M6.5 9v.01M17.5 15v.01", "chart": "M3 3v18h18M7 15l4-4 3 3 6-7M16 7h4v4", "cpu": "M7 7h10v10H7zM10 10h4v4h-4zM10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4", "road": "M8 3L4 21M16 3l4 18M12 5v2M12 11v2M12 17v2", "bolt": "M13 2L4 14h7l-1 8 9-12h-7z", "brief": "M3 8h18v12H3zM8 8V5h8v3M3 13h18M11 13v2h2v-2", "home": "M3 11l9-7 9 7M5 9.5V20h14V9.5M10 20v-6h4v6", "leaf": "M5 19c0-8 5-14 15-15c0 10-6 15-14 15M5 19c3-4 6-7 10-9", "edu": "M2 9l10-5 10 5-10 5-10-5zM6 11v5c3.5 2.7 8.5 2.7 12 0v-5M22 9v6", "palette": "M12 3a9 9 0 0 0 0 18c1.2 0 2-.8 2-1.9 0-1.3-1-1.6-1-2.6 0-.8.6-1.5 1.6-1.5H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8zM7.5 11.5v.01M9.5 7.5v.01M14.5 7.5v.01M17 11v.01", "spark": "M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8zM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z", "medal": "M7 3h10l-3 6h-4zM12 9a6 6 0 1 0 0 12a6 6 0 1 0 0-12M12 12.5l1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3z", "media": "M4 5h16v14H4zM8 9h8M8 13h8M8 17h5", "plane": "M2 16l20-8-6 13-3-6-6-2zM13 15l-3 4", "heart": "M12 20s-8-4.6-8-10.2A4.3 4.3 0 0 1 12 7a4.3 4.3 0 0 1 8 2.8C20 15.4 12 20 12 20zM5 12h3l2-3 2.5 5 1.5-2h4", "people": "M9 8a3 3 0 1 0 0-.01M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M17 9a2.5 2.5 0 1 0 0-.01M15.5 14.4c2.9.2 5.5 2.2 5.5 5.6", "moon": "M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5zM17 3l.6 1.6L19 5l-1.4.6L17 7l-.6-1.4L15 5l1.4-.4z", "shield": "M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6l8-3zM9 12l2 2 4-4", "globe": "M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M3 12h18M12 3c3 3.2 3 14.8 0 18M12 3c-3 3.2-3 14.8 0 18", "census": "M4 20h16M6 20v-5M10 20V9M14 20v-7M18 20V5", "trophy": "M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 21h8M9.5 17h5v4h-5z"};
+const DICON={"الشؤون التشريعية والطعون": "law", "المالية": "money", "الاقتصاد": "chart", "الصناعة والتقنية": "cpu", "البنية التحتية والنقل والمواصلات": "road", "الطاقة": "bolt", "الموارد البشرية والتوطين والعمل والعمال": "brief", "السكن والإسكان": "home", "البيئة والثروات الطبيعية": "leaf", "التعليم": "edu", "الثقافة": "palette", "الشباب": "spark", "الرياضة": "medal", "الإعلام": "media", "السياحة": "plane", "الصحة": "heart", "الشؤون الاجتماعية": "people", "الشؤون الإسلامية والأوقاف": "moon", "الشؤون الأمنية": "shield", "الشؤون الخارجية": "globe", "السكان": "census"};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const today=()=>{const d=new Date();d.setHours(0,0,0,0);return d};
@@ -367,10 +481,12 @@ const bandChip=b=>b==="عالية"?"c-gold":b==="متوسطة"?"c-aw":"";
 const verChip=v=>v==="مؤكد رسمياً"?"c-ok":v==="تعارض"?"c-red":v==="غير مؤكد"?"c-amb":"";
 const pubChip=v=>v==="تم النشر"?"c-ok":v==="للعلم فقط"?"":"c-amb";
 const pubLbl=v=>v==="تم النشر"?"✓ منشور":v==="للعلم فقط"?"للعلم فقط":"لم يُنشر";
+let POSTERS={};const posterOf=r=>POSTERS[r._id]||null;
+function posterThumb(r){const p=posterOf(r);return p?'<button type="button" class="pst" data-open="'+esc(r._id)+'" aria-label="عرض دعوة: '+esc(r.title)+'"><img src="'+esc(p)+'" alt="" loading="lazy"><span>الدعوة</span></button>':''}
 function logoImg(r){const t=(r.organizer||"")+" "+(r.title||"");for(const l of LOGOS)if(l.kw.some(k=>t.includes(k)))return l;return null}
 function thumb(r,size){const l=logoImg(r);if(l)return '<span class="lg"><img src="'+l.src+'" alt="'+esc(r.organizer||"")+'" loading="lazy"></span>';
-  const d=domsOf(r)[0]||"";const[bg,fg]=isAw(r)?["#1F5FA8","#CFE0F6"]:(DCOL[d]||["#2F3E52","#E2C27E"]);const ic=ICON[isAw(r)?"trophy":(DICON[d]||"gov")];
-  return '<span class="lg dom" style="background:'+bg+'" title="'+esc(r.organizer||d)+'"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="'+fg+'" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+ic+'"/></svg></span>'}
+  const d=domsOf(r)[0]||"";const[bg,bg2,fg]=isAw(r)?["#1B3F86","#3C73D0","#E3EEFF"]:(DCOL[d]||["#1B2A3D","#3A4F6E","#F3D99B"]);const ic=ICON[isAw(r)?"trophy":(DICON[d]||"gov")];
+  return '<span class="lg dom" style="background:linear-gradient(145deg,'+bg2+','+bg+')" title="'+esc(r.organizer||d)+'"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="'+fg+'" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+ic+'"/></svg></span>'}
 const starSvg='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.5 6 .8-4.4 4.2 1.1 6L12 16.6 6.7 19.5l1.1-6L3.4 9.3l6-.8z"/></svg>';
 
 let rows=[],assocs=[],db=null,canWrite=false;
@@ -400,12 +516,12 @@ function renderKpis(){
   const openP=up.filter(r=>(pathOf(r)==="مشارك"||isAw(r))&&r.status==="مفتوح").length;
   const awOpen=all.filter(r=>isAw(r)&&r.status==="مفتوح"&&live(r)).length;
   const unpub=up.filter(r=>pubOf(r)==="لم يتم النشر").length;
-  const K=[["إجمالي الفعاليات والجوائز",all.length,"جميع السجلات","var(--navy)","#E2C27E",'M3 7h18v13H3zM2 3h20v4H2z',"all"],
-    ["الفعاليات القادمة",up.length,"مواعيد مستقبلية","#EEF1F5","var(--navy)",'M3 5h18v16H3zM3 10h18M8 3v4M16 3v4',"up"],
-    ["فرص المشاركة المفتوحة",openP,"تحدث وأوراق وجوائز","var(--greensoft)","var(--green)",'M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM5 11a7 7 0 0 0 14 0M12 18v3',"open"],
-    ["الجوائز المتاحة للتقديم",awOpen,"ترشح مفتوح","var(--awsoft)","var(--aw)",'M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 21h8',"aw"],
+  const K=[["إجمالي الفعاليات والجوائز",all.length,"جميع السجلات","linear-gradient(145deg,#3A55B8,#1B2A3D)","#F3D99B",'M12 3l9 5-9 5-9-5zM3 13l9 5 9-5M3 17.5l9 5 9-5',"all"],
+    ["الفعاليات القادمة",up.length,"مواعيد مستقبلية","linear-gradient(145deg,#EEF2FD,#D5DFF8)","#2A4098",'M4 5h16v16H4zM4 10h16M8 3v4M16 3v4M8 14h2M14 14h2M8 17.5h2',"up"],
+    ["فرص المشاركة المفتوحة",openP,"تحدث وأوراق وجوائز","linear-gradient(145deg,#E8F6EE,#C9EAD6)","#1F6B45",'M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM5 11a7 7 0 0 0 14 0M12 18v3',"open"],
+    ["الجوائز المتاحة للتقديم",awOpen,"ترشح مفتوح","linear-gradient(145deg,#FDF3DD,#F1DBA4)","#7A5208",ICON.trophy,"aw"],
     ["بانتظار النشر للموظفين",unpub,"قادمة ولم تُنشر","var(--ambersoft)","var(--amber)",'M21 3L10 14M21 3l-7 18-4-7-7-4z',"pub"]];
-  K.length=4;$("kpis").innerHTML=K.map(k=>'<button class="kpi" type="button" data-k="'+k[6]+'"><span class="ki" style="background:'+k[3]+'"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="'+k[4]+'" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+k[5]+'"/></svg></span><span><b>'+k[1]+'</b><span>'+k[0]+'</span><span style="font-size:11.5px">'+k[2]+'</span></span></button>').join("")}
+  K.length=4;$("kpis").innerHTML=K.map(k=>'<button class="kpi" type="button" data-k="'+k[6]+'"><span class="ki" style="background:'+k[3]+'"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="'+k[4]+'" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+k[5]+'"/></svg></span><span><b>'+k[1]+'</b><span>'+k[0]+'</span><span style="font-size:11.5px">'+k[2]+'</span></span></button>').join("")}
 
 function renderCal(src){
   const y=cm.getFullYear(),m=cm.getMonth();$("calT").textContent=MONTHS[m]+" "+y;
@@ -426,7 +542,7 @@ function opRow(r){const k=keyDate(r),n=days(k.d),sc=score(r),p=pathOf(r);
   '<div class="chips"><span class="chip">'+pl+'</span><span class="chip '+bandChip(sc.band)+'" title="'+esc(sc.why)+'">أولوية '+sc.band+' · '+sc.s+'/100</span></div>'+
   '<div class="m" style="margin-top:4px">'+esc([r.emirate,domsOf(r)[0]].filter(Boolean).join(" · "))+(k.d?' · '+k.kind+': '+fmt(k.d):' · الموعد غير معلن')+'</div>'+
   (n!==null&&n>=0&&n<=7&&k.kind!=="انتهت"?'<div class="urg">'+(n===0?"اليوم":"يتبقى "+n+(n===1?" يوم":" أيام"))+(k.kind==="التقديم"?" على إغلاق التقديم":" على الموعد")+'</div>':'')+
-  '</div><button type="button" class="star" data-star="'+esc(r._id)+'" aria-pressed="'+(!!r.saved)+'" aria-label="'+(r.saved?"إزالة من المختارة":"حفظ في المختارة")+'">'+starSvg+'</button></div>'}
+  '</div>'+posterThumb(r)+'<button type="button" class="star" data-star="'+esc(r._id)+'" aria-pressed="'+(!!r.saved)+'" aria-label="'+(r.saved?"إزالة من المختارة":"حفظ في المختارة")+'">'+starSvg+'</button></div>'}
 
 function renderOpps(src){
   let v=src.filter(r=>live(r)||undated(r));
@@ -465,7 +581,7 @@ function renderAwards(){
   $("awSub").textContent=aw.length+" جائزة ودعوة بحثية · "+aw.filter(r=>awState(r)[0]==="مفتوحة").length+" مفتوحة الآن";
   $("awGrid").innerHTML=aw.map(r=>{const[st,cl]=awState(r),l=logoImg(r),d=parse(r.deadline),n=days(d),lk=r.orgUrl||r.url;
     const pct=d&&n>=0?Math.max(6,Math.min(100,Math.round((1-n/120)*100))):0;
-    return '<article class="awc"><div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">'+(l?'<span class="awlg"><img src="'+l.src+'" alt="'+esc(r.organizer||"")+'"></span>':thumb(r))+'<span class="chip '+cl+'">'+st+'</span></div>'+
+    const pc=posterOf(r);return '<article class="awc'+(pc?' has-pst':'')+'">'+(pc?'<button type="button" class="awcover" data-open="'+esc(r._id)+'" aria-label="عرض دعوة: '+esc(r.title)+'"><img src="'+esc(pc)+'" alt="" loading="lazy"></button>':'')+'<div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">'+(l?'<span class="awlg"><img src="'+l.src+'" alt="'+esc(r.organizer||"")+'"></span>':thumb(r))+'<span class="chip '+cl+'">'+st+'</span></div>'+
     '<button type="button" class="tt" data-open="'+esc(r._id)+'" style="border:0;background:none;padding:0;cursor:pointer;text-align:start">'+esc(r.title)+'</button>'+
     (lk?'<a class="reg" href="'+esc(lk)+'" target="_blank" rel="noopener">التسجيل ↗</a>':'')+
     '<div class="k">'+(r.awardKind||[]).map(k=>'<span>'+esc(k)+'</span>').join("")+domsOf(r).slice(0,2).map(k=>'<span>'+esc(k)+'</span>').join("")+'</div>'+
@@ -518,7 +634,7 @@ function renderAssocs(){const sel=$("aCom"),cur=sel.value,coms=[...new Set(assoc
 function openDlg(id){const r=rows.find(x=>x._id===id);if(!r)return;const k=keyDate(r),sc=score(r),l=logoImg(r);
   const st=isAw(r)?STG_AW:STG_EV;
   $("dlgBody").innerHTML='<div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start"><div style="display:flex;gap:12px;align-items:center">'+thumb(r)+'<h2 id="dlgT" style="font-size:21px">'+esc(r.title)+'</h2></div><button class="btn" type="button" data-close aria-label="إغلاق">✕</button></div>'+
-  '<div class="row"><span class="chip '+bandChip(sc.band)+'">أولوية '+sc.band+' · '+sc.s+'/100</span><span class="chip '+verChip(r.verify)+'">'+esc(r.verify||"مبدئي")+'</span><span class="chip">'+esc(r.status||"")+'</span></div>'+
+  (posterOf(r)?'<figure class="dpst"><img src="'+esc(posterOf(r))+'" alt="دعوة: '+esc(r.title)+'"><figcaption><a href="'+esc(posterOf(r))+'" target="_blank" rel="noopener">فتح الدعوة بالحجم الكامل ↗</a></figcaption></figure>':'')+'<div class="row"><span class="chip '+bandChip(sc.band)+'">أولوية '+sc.band+' · '+sc.s+'/100</span><span class="chip '+verChip(r.verify)+'">'+esc(r.verify||"مبدئي")+'</span><span class="chip">'+esc(r.status||"")+'</span></div>'+
   '<p class="sub" style="margin:0">سبب التقييم: '+esc(sc.why)+'</p>'+
   '<dl><dt>الجهة المنظمة</dt><dd>'+esc(r.organizer||"—")+(r.etype?' ('+esc(r.etype)+')':'')+'</dd><dt>الإمارة</dt><dd>'+esc(r.emirate||"—")+'</dd><dt>المجالات</dt><dd>'+esc(domsOf(r).join("، ")||"—")+'</dd><dt>النوع والمسار</dt><dd>'+esc([r.type,pathOf(r)].filter(Boolean).join(" · "))+'</dd><dt>الموعد</dt><dd>'+(r.start?fmt(parse(r.start))+(r.end&&r.end!==r.start?' – '+fmt(parse(r.end)):''):'—')+'</dd><dt>آخر موعد للتقديم</dt><dd>'+(r.deadline?fmt(parse(r.deadline)):'—')+'</dd>'+(r.awardKind&&r.awardKind.length?'<dt>فئة الجائزة</dt><dd>'+esc(r.awardKind.join("، "))+'</dd>':'')+'<dt>آخر تحقق</dt><dd>'+esc(r.checked||"—")+'</dd></dl>'+
   (r.notes?'<p style="margin:0;font-size:14px;line-height:1.8">'+esc(r.notes)+'</p>':'')+
@@ -590,6 +706,11 @@ render();
 (async()=>{try{
   const d=await fetch("data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()});
   rows=d.opps||[];render();
+  (async()=>{const ok=n=>/\.(jpe?g|png|webp|gif)$/i.test(n);let names=[];
+    try{const r=await fetch("posters/index.json",{cache:"no-store"});if(r.ok)names=await r.json()}catch(e){}
+    if(!names.length){try{const r=await fetch("https://api.github.com/repos/opc-almajles/marsad/contents/posters");if(r.ok)names=(await r.json()).map(f=>f.name)}catch(e){}}
+    const m={};for(const n of names)if(ok(n))m[n.replace(/\.[^.]+$/,"")]="posters/"+encodeURIComponent(n);
+    if(Object.keys(m).length){POSTERS=m;render()}})();
   const u=d.updated?new Intl.DateTimeFormat("ar-AE",{day:"numeric",month:"long",year:"numeric",numberingSystem:"latn"}).format(new Date(d.updated)):"";
   $("status").textContent=rows.length+" فعالية وجائزة مرصودة"+(u?" · آخر تحديث "+u:"")+" · تُحدَّث كل اثنين وخميس";
 }catch(e){$("status").textContent="تعذّر تحميل البيانات"}})();
