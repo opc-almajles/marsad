@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-24",
  "opps": [
   {
    "title": "ملتقى الشركاء والمشاركة الرقمية",
@@ -96,11 +96,11 @@
    "type": "منتدى",
    "start": "2026-11-18",
    "end": "2026-11-19",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://thesignal.ae/ar",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-17",
+   "checked": "2026-11-20",
    "_id": "OPP-00006"
   },
   {
@@ -113,11 +113,11 @@
    "type": "منتدى",
    "start": "2026-11-18",
    "end": "2026-11-21",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.dubaifuture.ae/dubai-future-forum-2026",
    "url": "https://www.wam.ae/en/article/c210gy4-dubai-future-week-held-from-november-2026",
-   "checked": "2026-11-16",
+   "checked": "2026-11-22",
    "_id": "OPP-00007"
   },
   {
@@ -134,7 +134,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://rakenergysummit.rak.ae/",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-17",
+   "checked": "2026-11-24",
    "_id": "OPP-00008"
   },
   {
@@ -200,7 +200,7 @@
    "verify": "غير مؤكد",
    "orgUrl": "https://arabmediasummit.ae/",
    "url": "https://arabmediasummit.ae/media-center/news",
-   "checked": "2026-11-19",
+   "checked": "2026-11-24",
    "_id": "OPP-00014"
   },
   {
@@ -244,22 +244,23 @@
    "_id": "OPP-00017"
   },
   {
-   "title": "جائزة الإمارات للتعليم العالي – الدورة الثانية",
+   "title": "جائزة الإمارات للتعليم العالي – الدورة الأولى (مُدّد الترشح حتى 27 نوفمبر)",
    "organizer": "وزارة التعليم العالي والبحث العلمي",
    "etype": "اتحادية",
    "emirate": "متعدد الإمارات",
    "domain": "التعليم",
    "path": "جائزة",
    "type": "جائزة",
-   "status": "لم يُعلن",
-   "verify": "غير مؤكد",
+   "deadline": "2026-11-27",
+   "status": "مفتوح",
+   "verify": "مبدئي",
    "orgUrl": "https://www.mohesr.gov.ae/Ar/ImportantLinks/SiteAssets/HEA/index.aspx",
-   "url": "https://www.mohesr.gov.ae/Ar/ImportantLinks/SiteAssets/HEA/index.aspx",
+   "url": "https://www.albayan.ae/news/1564327",
    "awardKind": [
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-23",
    "_id": "OPP-00018"
   },
   {
@@ -293,7 +294,7 @@
    "verify": "تعارض",
    "orgUrl": "https://www.mediaoffice.abudhabi/en/abu-dhabi-events/global-media-congress/",
    "url": "https://www.mediaoffice.abudhabi/en/abu-dhabi-events/global-media-congress/",
-   "checked": "2026-11-19",
+   "checked": "2026-11-24",
    "_id": "OPP-00020"
   },
   {
@@ -1595,10 +1596,10 @@
    "type": "دورة",
    "start": "2026-11-18",
    "end": "2026-11-19",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://u.dscd.ae/3gstr01",
-   "checked": "2026-11-05",
+   "checked": "2026-11-20",
    "_id": "OPP-00118"
   },
   {
@@ -1614,7 +1615,7 @@
    "status": "مفتوح",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://u.dscd.ae/3gstr01",
-   "checked": "2026-11-05",
+   "checked": "2026-11-21",
    "_id": "OPP-00119"
   },
   {
@@ -1796,7 +1797,7 @@
    "status": "مفتوح",
    "verify": "مؤكد رسمياً",
    "url": "https://www.emaratalyoum.com/business/local/2026-11-12-1.2102141",
-   "checked": "2026-11-19",
+   "checked": "2026-11-24",
    "_id": "OPP-00131"
   },
   {
@@ -2574,7 +2575,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-19",
+   "checked": "2026-11-24",
    "_id": "OPP-00179"
   },
   {
@@ -2595,7 +2596,7 @@
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-19",
+   "checked": "2026-11-24",
    "_id": "OPP-00180"
   },
   {
@@ -2615,7 +2616,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-19",
+   "checked": "2026-11-24",
    "_id": "OPP-00181"
   },
   {
@@ -2636,7 +2637,7 @@
    "awardKind": [
     "مقالات"
    ],
-   "checked": "2026-11-19",
+   "checked": "2026-11-24",
    "_id": "OPP-00183"
   },
   {
@@ -2810,11 +2811,11 @@
    "type": "مؤتمر",
    "start": "2026-11-19",
    "end": "2026-11-19",
-   "status": "للعلم فقط",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://ra.ac.ae/en/media/news/rabdan-security-and-defence-institute-to-host-middle-east-defence-conference-2026-in-emirate",
    "url": "https://ra.ac.ae/en/media/news/rabdan-security-and-defence-institute-to-host-middle-east-defence-conference-2026-in-emirate",
-   "checked": "2026-11-17",
+   "checked": "2026-11-21",
    "_id": "OPP-00195"
   },
   {
@@ -2977,11 +2978,11 @@
    "type": "محاضرة",
    "start": "2026-11-19",
    "end": "2026-11-19",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مبدئي",
    "orgUrl": "https://www.dfwac.ae",
    "url": "https://www.dfwac.ae",
-   "checked": "2026-11-17",
+   "checked": "2026-11-20",
    "_id": "OPP-00203"
   },
   {
@@ -3174,9 +3175,9 @@
    "type": "جلسة حوارية",
    "start": "2026-11-20",
    "end": "2026-11-20",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
-   "checked": "2026-11-19",
+   "checked": "2026-11-21",
    "_id": "OPP-00213"
   },
   {
@@ -3302,6 +3303,97 @@
    "verify": "مؤكد رسمياً",
    "checked": "2026-11-19",
    "_id": "OPP-00219"
+  },
+  {
+   "title": "الدورة الشتوية 2026 لنادي الإمارات العلمي (ورش علمية وتقنية للطلبة المواطنين)",
+   "organizer": "نادي الإمارات العلمي – ندوة الثقافة والعلوم",
+   "etype": "جمعية نفع عام",
+   "emirate": "دبي",
+   "domain": "التعليم",
+   "domains": [
+    "التعليم",
+    "الشباب",
+    "الصناعة والتقنية"
+   ],
+   "path": "حضور",
+   "type": "دورة",
+   "start": "2026-12-13",
+   "end": "2026-12-29",
+   "status": "للعلم فقط",
+   "verify": "مؤكد رسمياً",
+   "orgUrl": "https://scienceclub.ae/winter-course-registration-open-2026/",
+   "url": "https://scienceclub.ae/winter-course-registration-open-2026/",
+   "checked": "2026-11-20",
+   "_id": "OPP-00220"
+  },
+  {
+   "title": "المنتدى العالمي للمرونة الرقمية 2026",
+   "organizer": "مركز دبي للأمن الإلكتروني – حكومة دبي (شركاء المعرفة: الاتحاد الدولي للاتصالات، مكتب الأمم المتحدة للحد من مخاطر الكوارث، معهد العلوم السياسية بباريس)",
+   "etype": "محلية",
+   "emirate": "دبي",
+   "domain": "الصناعة والتقنية",
+   "domains": [
+    "الصناعة والتقنية",
+    "الشؤون الأمنية"
+   ],
+   "path": "حضور",
+   "type": "منتدى",
+   "start": "2026-12-08",
+   "end": "2026-12-09",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "orgUrl": "https://www.gdrf.ai/",
+   "url": "https://www.albayan.ae/news/uae/dubai/1566515",
+   "checked": "2026-11-24",
+   "_id": "OPP-00221"
+  },
+  {
+   "title": "جائزة محمد بن راشد للغة العربية – الدورة الحادية عشرة",
+   "organizer": "جائزة محمد بن راشد للغة العربية",
+   "etype": "اتحادية",
+   "emirate": "دبي",
+   "domain": "الثقافة",
+   "domains": [
+    "الثقافة",
+    "التعليم",
+    "الإعلام"
+   ],
+   "path": "جائزة",
+   "type": "جائزة",
+   "start": "2026-11-16",
+   "deadline": "2027-04-04",
+   "status": "مفتوح",
+   "verify": "مبدئي",
+   "url": "https://www.albayan.ae/lifestyle/culture/1565469",
+   "awardKind": [
+    "بحوث ودراسات",
+    "ابتكار ومشاريع",
+    "تميز فردي",
+    "تميز مؤسسي"
+   ],
+   "checked": "2026-11-23",
+   "_id": "OPP-00222"
+  },
+  {
+   "title": "أسبوع أبوظبي للمياه والطاقة 2026 – النسخة الخاصة بالمياه (الدورة الافتتاحية)",
+   "organizer": "دائرة الطاقة – أبوظبي",
+   "etype": "محلية",
+   "emirate": "أبوظبي",
+   "domain": "الطاقة",
+   "domains": [
+    "الطاقة",
+    "البيئة والثروات الطبيعية",
+    "البنية التحتية والنقل والمواصلات"
+   ],
+   "path": "حضور",
+   "type": "منتدى",
+   "start": "2026-12-08",
+   "end": "2026-12-10",
+   "status": "لم يُعلن",
+   "verify": "مبدئي",
+   "url": "https://www.mediaoffice.abudhabi/en/energy/organised-by-department-of-energy-abu-dhabi-inaugural-abu-dhabi-water-power-week-special-water-edition-to-take-place/",
+   "checked": "2026-11-24",
+   "_id": "OPP-00223"
   }
  ]
 }
