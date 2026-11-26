@@ -1,25 +1,6 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-26",
  "opps": [
-  {
-   "title": "ملتقى الشركاء والمشاركة الرقمية",
-   "organizer": "وزارة المالية",
-   "etype": "اتحادية",
-   "emirate": "أبوظبي",
-   "domain": "المالية",
-   "domains": [
-    "المالية"
-   ],
-   "path": "حضور",
-   "type": "ملتقى",
-   "start": "2026-11-12",
-   "status": "مغلق",
-   "verify": "مبدئي",
-   "orgUrl": "https://shorturl.at/QRcve",
-   "url": "https://www.instagram.com/p/DfWhcG8RekG/",
-   "checked": "2026-11-16",
-   "_id": "9uogcxh1xrfns75hxl5c"
-  },
   {
    "title": "معرض الشارقة الدولي للكتاب – الدورة 45",
    "organizer": "هيئة الشارقة للكتاب",
@@ -36,22 +17,6 @@
    "url": "https://www.khaleejtimes.com/uae/sharjah-international-book-fair-2026-november-4-to-15",
    "checked": "2026-11-16",
    "_id": "OPP-00001"
-  },
-  {
-   "title": "الشهر الوطني للابتكار (الإمارات تبتكر)",
-   "organizer": "حكومة الإمارات",
-   "etype": "اتحادية",
-   "emirate": "متعدد الإمارات",
-   "domain": "الصناعة والتقنية",
-   "path": "فعالية",
-   "type": "منتدى",
-   "start": "2026-11-01",
-   "end": "2026-11-30",
-   "status": "مفتوح",
-   "verify": "مؤكد رسمياً",
-   "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-05",
-   "_id": "OPP-00002"
   },
   {
    "title": "الاجتماعات السنوية لحكومة دولة الإمارات",
@@ -134,7 +99,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://rakenergysummit.rak.ae/",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "_id": "OPP-00008"
   },
   {
@@ -200,7 +165,7 @@
    "verify": "غير مؤكد",
    "orgUrl": "https://arabmediasummit.ae/",
    "url": "https://arabmediasummit.ae/media-center/news",
-   "checked": "2026-11-24",
+   "checked": "2026-11-26",
    "_id": "OPP-00014"
   },
   {
@@ -281,23 +246,6 @@
    "_id": "OPP-00019"
   },
   {
-   "title": "الكونغرس العالمي للإعلام 2026",
-   "organizer": "وكالة أنباء الإمارات (وام) بالشراكة مع أدنيك",
-   "etype": "اتحادية",
-   "emirate": "أبوظبي",
-   "domain": "الإعلام",
-   "path": "فعالية",
-   "type": "مؤتمر",
-   "start": "2026-11-26",
-   "end": "2026-11-28",
-   "status": "قيد التحقق",
-   "verify": "تعارض",
-   "orgUrl": "https://www.mediaoffice.abudhabi/en/abu-dhabi-events/global-media-congress/",
-   "url": "https://www.mediaoffice.abudhabi/en/abu-dhabi-events/global-media-congress/",
-   "checked": "2026-11-24",
-   "_id": "OPP-00020"
-  },
-  {
    "title": "أسبوع أبوظبي للاستدامة 2027",
    "organizer": "مصدر",
    "etype": "محلية",
@@ -328,7 +276,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.worldutilitiescongress.com/",
    "url": "https://www.worldutilitiescongress.com/media/pcmnl11i/world-utilities-congress-2027-brief.pdf",
-   "checked": "2026-11-05",
+   "checked": "2026-11-26",
    "_id": "OPP-00023"
   },
   {
@@ -354,25 +302,6 @@
    "_id": "OPP-00024"
   },
   {
-   "title": "جائزة خليفة الدولية لنخيل التمر والابتكار الزراعي – الدورة 19",
-   "organizer": "جائزة خليفة الدولية لنخيل التمر والابتكار الزراعي",
-   "etype": "اتحادية",
-   "emirate": "أبوظبي",
-   "domain": "البيئة والثروات الطبيعية",
-   "path": "جائزة",
-   "type": "جائزة",
-   "start": "2026-07-15",
-   "status": "مفتوح",
-   "verify": "مبدئي",
-   "url": "https://www.wam.ae/ar/article/c190vbj-فتح-باب-الترشيح-لجائزة-خليفة-الدولية-لنخيل-التمر",
-   "awardKind": [
-    "بحوث ودراسات",
-    "ابتكار ومشاريع"
-   ],
-   "checked": "2026-11-05",
-   "_id": "OPP-00028"
-  },
-  {
    "title": "المؤتمر الدولي الثاني عشر لجامعة القاسمية: صناعة الحلال والتنمية المستدامة",
    "organizer": "جامعة القاسمية",
    "etype": "محلية",
@@ -385,7 +314,7 @@
    "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "url": "https://www.albayan.ae/news/uae/education/1544689",
-   "checked": "2026-11-19",
+   "checked": "2026-11-25",
    "_id": "OPP-00029"
   },
   {
@@ -401,7 +330,7 @@
    "status": "لم يُعلن",
    "verify": "مبدئي",
    "url": "https://www.gulftoday.ae/business/2026/05/08/make-it-in-the-emirates-concludes-largest-edition-of-uaes-industrial-platform",
-   "checked": "2026-11-05",
+   "checked": "2026-11-26",
    "_id": "OPP-00031"
   },
   {
@@ -1797,7 +1726,7 @@
    "status": "مفتوح",
    "verify": "مؤكد رسمياً",
    "url": "https://www.emaratalyoum.com/business/local/2026-11-12-1.2102141",
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "_id": "OPP-00131"
   },
   {
@@ -2382,9 +2311,9 @@
    "domain": "الصناعة والتقنية",
    "path": "فعالية",
    "type": "هاكاثون",
-   "status": "قيد التحقق",
-   "verify": "مبدئي",
-   "checked": "2026-11-05",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "checked": "2026-11-26",
    "_id": "OPP-00169"
   },
   {
@@ -2506,13 +2435,13 @@
    ],
    "path": "مشارك",
    "type": "دعوة أوراق",
-   "status": "قيد التحقق",
-   "verify": "مبدئي",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
    "url": "https://www.instagram.com/p/DTMwjf0EkB7/",
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-26",
    "_id": "OPP-00175"
   },
   {
@@ -2539,26 +2468,6 @@
    "_id": "OPP-00177"
   },
   {
-   "title": "جائزة الدراسات الإفتائية والاجتهاد الحضاري 2026",
-   "organizer": "مجلس الإمارات للإفتاء الشرعي",
-   "etype": "اتحادية",
-   "emirate": "أبوظبي",
-   "domain": "الشؤون الإسلامية والأوقاف",
-   "domains": [
-    "الشؤون الإسلامية والأوقاف"
-   ],
-   "path": "مشارك",
-   "type": "دعوة أوراق",
-   "status": "قيد التحقق",
-   "verify": "مبدئي",
-   "url": "https://www.wam.ae/ar/article/3c7vjhr9-الإمارات-للإفتاء-يفتح-الباب-للتقديم-لجائزة",
-   "awardKind": [
-    "بحوث ودراسات"
-   ],
-   "checked": "2026-11-06",
-   "_id": "OPP-00178"
-  },
-  {
    "title": "جائزة الشارقة للبحث العلمي (الأمنية) – الدورة القادمة",
    "organizer": "أكاديمية الشارقة للعلوم الشرطية",
    "etype": "محلية",
@@ -2575,7 +2484,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-26",
    "_id": "OPP-00179"
   },
   {
@@ -2596,7 +2505,7 @@
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-26",
    "_id": "OPP-00180"
   },
   {
@@ -2616,7 +2525,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-26",
    "_id": "OPP-00181"
   },
   {
@@ -2637,7 +2546,7 @@
    "awardKind": [
     "مقالات"
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-26",
    "_id": "OPP-00183"
   },
   {
@@ -2746,14 +2655,14 @@
    ],
    "path": "جائزة",
    "type": "جائزة",
-   "status": "قيد التحقق",
-   "verify": "مبدئي",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
    "orgUrl": "https://trendsgroup.org/trends-hub/submission",
    "url": "https://trendsgroup.org/trends-hub/",
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-26",
    "_id": "OPP-00191"
   },
   {
@@ -2858,26 +2767,6 @@
    "_id": "OPP-00197"
   },
   {
-   "title": "دعوة أوراق: الاتجاهات العالمية في التربية المقارنة والدولية – عدد خاص من مجلة GESPR",
-   "organizer": "مؤسسة الشيخ سعود بن صقر القاسمي لبحوث السياسات – مجلة الخليج للتربية والسياسات الاجتماعية",
-   "etype": "محلية",
-   "emirate": "رأس الخيمة",
-   "domain": "التعليم",
-   "domains": [
-    "التعليم",
-    "الشؤون الاجتماعية"
-   ],
-   "path": "مشارك",
-   "type": "دعوة أوراق",
-   "deadline": "2027-01-10",
-   "status": "مفتوح",
-   "verify": "مؤكد رسمياً",
-   "orgUrl": "https://www.instagram.com/p/DfZaDXUiGsh/",
-   "url": "https://www.instagram.com/p/DfZaDXUiGsh/",
-   "checked": "2026-11-06",
-   "_id": "OPP-00198"
-  },
-  {
    "title": "منح TransformRAK البحثية 2027",
    "organizer": "مؤسسة الشيخ سعود بن صقر القاسمي لبحوث السياسات",
    "etype": "محلية",
@@ -2961,7 +2850,7 @@
    "verify": "مبدئي",
    "orgUrl": "https://www.uaeu.ac.ae/ar/conferences/index.shtml",
    "url": "https://conferences.uaeu.ac.ae/warms2027/en/index.shtml",
-   "checked": "2026-11-09",
+   "checked": "2026-11-26",
    "_id": "OPP-00202"
   },
   {
@@ -3218,50 +3107,8 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.alqasimifoundation.com/learning-development-workshops",
    "url": "https://www.alqasimifoundation.com/learning-development-workshops",
-   "checked": "2026-11-17",
+   "checked": "2026-11-26",
    "_id": "OPP-00215"
-  },
-  {
-   "title": "القمة العالمية للرياضة – الدورة الثانية «نوحّد العالم عبر الرياضة»",
-   "organizer": "مجلس دبي الرياضي",
-   "etype": "محلية",
-   "emirate": "دبي",
-   "domain": "الرياضة",
-   "domains": [
-    "الرياضة",
-    "الشباب"
-   ],
-   "path": "حضور",
-   "type": "مؤتمر",
-   "start": "2026-12-28",
-   "end": "2026-12-29",
-   "status": "قيد التحقق",
-   "verify": "مؤكد رسمياً",
-   "orgUrl": "https://www.worldsportssummit.org/en",
-   "url": "https://www.emaratalyoum.com/sports/arab-and-international/2026-06-25-1.2058933",
-   "checked": "2026-11-18",
-   "_id": "OPP-00216"
-  },
-  {
-   "title": "القمة الثقافية أبوظبي 2026 – الدورة الثامنة «في إعادة تخيّل المشترك»",
-   "organizer": "دائرة الثقافة والسياحة – أبوظبي",
-   "etype": "محلية",
-   "emirate": "أبوظبي",
-   "domain": "الثقافة",
-   "domains": [
-    "الثقافة",
-    "السياحة"
-   ],
-   "path": "حضور",
-   "type": "مؤتمر",
-   "start": "2026-12-08",
-   "end": "2026-12-10",
-   "status": "مفتوح",
-   "verify": "مبدئي",
-   "orgUrl": "https://abudhabiculture.ae/ar/cultural-programmes/symposiums-and-conferences/culture-summit",
-   "url": "https://www.albayan.ae/lifestyle/culture/1551478",
-   "checked": "2026-11-19",
-   "_id": "OPP-00217"
   },
   {
    "title": "منتدى دبي الدولي لإدارة المشاريع – الدورة 12 «من الرؤية إلى الأثر»",
@@ -3281,7 +3128,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.dipmf.ae",
    "url": "https://www.albayan.ae/news/uae/1558768",
-   "checked": "2026-11-18",
+   "checked": "2026-11-26",
    "_id": "OPP-00218"
   },
   {
@@ -3323,7 +3170,7 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://scienceclub.ae/winter-course-registration-open-2026/",
    "url": "https://scienceclub.ae/winter-course-registration-open-2026/",
-   "checked": "2026-11-20",
+   "checked": "2026-11-26",
    "_id": "OPP-00220"
   },
   {
@@ -3344,35 +3191,8 @@
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://www.gdrf.ai/",
    "url": "https://www.albayan.ae/news/uae/dubai/1566515",
-   "checked": "2026-11-24",
+   "checked": "2026-11-26",
    "_id": "OPP-00221"
-  },
-  {
-   "title": "جائزة محمد بن راشد للغة العربية – الدورة الحادية عشرة",
-   "organizer": "جائزة محمد بن راشد للغة العربية",
-   "etype": "اتحادية",
-   "emirate": "دبي",
-   "domain": "الثقافة",
-   "domains": [
-    "الثقافة",
-    "التعليم",
-    "الإعلام"
-   ],
-   "path": "جائزة",
-   "type": "جائزة",
-   "start": "2026-11-16",
-   "deadline": "2027-04-04",
-   "status": "مفتوح",
-   "verify": "مبدئي",
-   "url": "https://www.albayan.ae/lifestyle/culture/1565469",
-   "awardKind": [
-    "بحوث ودراسات",
-    "ابتكار ومشاريع",
-    "تميز فردي",
-    "تميز مؤسسي"
-   ],
-   "checked": "2026-11-23",
-   "_id": "OPP-00222"
   },
   {
    "title": "أسبوع أبوظبي للمياه والطاقة 2026 – النسخة الخاصة بالمياه (الدورة الافتتاحية)",
@@ -3392,8 +3212,47 @@
    "status": "لم يُعلن",
    "verify": "مبدئي",
    "url": "https://www.mediaoffice.abudhabi/en/energy/organised-by-department-of-energy-abu-dhabi-inaugural-abu-dhabi-water-power-week-special-water-edition-to-take-place/",
-   "checked": "2026-11-24",
+   "checked": "2026-11-26",
    "_id": "OPP-00223"
+  },
+  {
+   "title": "برنامج تنفيذي مجاني عن بُعد: الذكاء الاصطناعي والتحول الرقمي في العمل الحكومي (بالعربية)",
+   "organizer": "كلية محمد بن راشد للإدارة الحكومية بالشراكة مع جامعة أكسفورد (كلية سعيد للأعمال) واليونسكو",
+   "etype": "محلية",
+   "emirate": "دبي",
+   "domain": "الصناعة والتقنية",
+   "domains": [
+    "الصناعة والتقنية",
+    "التعليم",
+    "الشؤون التشريعية والطعون"
+   ],
+   "path": "حضور",
+   "type": "دورة",
+   "status": "مفتوح",
+   "verify": "مؤكد رسمياً",
+   "orgUrl": "https://mbrsg.ae/w/mbrsg-launches-executive-programme-on-ai-and-digital-transformation-for-arab-governments",
+   "url": "https://emaratalyoum.com/business/local/2026-11-19-1.2104465",
+   "checked": "2026-11-26",
+   "_id": "OPP-00224"
+  },
+  {
+   "title": "ملتقى الشركاء والمشاركة الرقمية",
+   "organizer": "وزارة المالية",
+   "etype": "اتحادية",
+   "emirate": "أبوظبي",
+   "domain": "المالية",
+   "domains": [
+    "المالية"
+   ],
+   "path": "حضور",
+   "type": "ملتقى",
+   "start": "2026-11-12",
+   "status": "مغلق",
+   "verify": "مبدئي",
+   "orgUrl": "https://shorturl.at/QRcve",
+   "url": "https://www.instagram.com/p/DfWhcG8RekG/",
+   "checked": "2026-11-16",
+   "_id": "9uogcxh1xrfns75hxl5c"
   }
  ]
 }
