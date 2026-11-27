@@ -1,6 +1,25 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "opps": [
+  {
+   "title": "ملتقى الشركاء والمشاركة الرقمية",
+   "organizer": "وزارة المالية",
+   "etype": "اتحادية",
+   "emirate": "أبوظبي",
+   "domain": "المالية",
+   "domains": [
+    "المالية"
+   ],
+   "path": "حضور",
+   "type": "ملتقى",
+   "start": "2026-11-12",
+   "status": "مغلق",
+   "verify": "مبدئي",
+   "orgUrl": "https://shorturl.at/QRcve",
+   "url": "https://www.instagram.com/p/DfWhcG8RekG/",
+   "checked": "2026-11-16",
+   "_id": "9uogcxh1xrfns75hxl5c"
+  },
   {
    "title": "معرض الشارقة الدولي للكتاب – الدورة 45",
    "organizer": "هيئة الشارقة للكتاب",
@@ -165,7 +184,7 @@
    "verify": "غير مؤكد",
    "orgUrl": "https://arabmediasummit.ae/",
    "url": "https://arabmediasummit.ae/media-center/news",
-   "checked": "2026-11-26",
+   "checked": "2026-11-27",
    "_id": "OPP-00014"
   },
   {
@@ -225,7 +244,7 @@
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-23",
+   "checked": "2026-11-27",
    "_id": "OPP-00018"
   },
   {
@@ -314,7 +333,7 @@
    "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "url": "https://www.albayan.ae/news/uae/education/1544689",
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "_id": "OPP-00029"
   },
   {
@@ -2484,7 +2503,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-26",
+   "checked": "2026-11-27",
    "_id": "OPP-00179"
   },
   {
@@ -2505,7 +2524,7 @@
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-26",
+   "checked": "2026-11-27",
    "_id": "OPP-00180"
   },
   {
@@ -2525,7 +2544,7 @@
    "awardKind": [
     "بحوث ودراسات"
    ],
-   "checked": "2026-11-26",
+   "checked": "2026-11-27",
    "_id": "OPP-00181"
   },
   {
@@ -2546,7 +2565,7 @@
    "awardKind": [
     "مقالات"
    ],
-   "checked": "2026-11-26",
+   "checked": "2026-11-27",
    "_id": "OPP-00183"
   },
   {
@@ -3234,25 +3253,6 @@
    "url": "https://emaratalyoum.com/business/local/2026-11-19-1.2104465",
    "checked": "2026-11-26",
    "_id": "OPP-00224"
-  },
-  {
-   "title": "ملتقى الشركاء والمشاركة الرقمية",
-   "organizer": "وزارة المالية",
-   "etype": "اتحادية",
-   "emirate": "أبوظبي",
-   "domain": "المالية",
-   "domains": [
-    "المالية"
-   ],
-   "path": "حضور",
-   "type": "ملتقى",
-   "start": "2026-11-12",
-   "status": "مغلق",
-   "verify": "مبدئي",
-   "orgUrl": "https://shorturl.at/QRcve",
-   "url": "https://www.instagram.com/p/DfWhcG8RekG/",
-   "checked": "2026-11-16",
-   "_id": "9uogcxh1xrfns75hxl5c"
   }
  ]
 }
