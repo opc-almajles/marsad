@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "opps": [
   {
    "title": "ملتقى الشركاء والمشاركة الرقمية",
@@ -114,11 +114,11 @@
    "type": "مؤتمر",
    "start": "2026-11-25",
    "end": "2026-11-27",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://rakenergysummit.rak.ae/",
    "url": "https://www.nma.gov.ae/en/media-center/events",
-   "checked": "2026-11-25",
+   "checked": "2026-11-28",
    "_id": "OPP-00008"
   },
   {
@@ -236,7 +236,7 @@
    "path": "جائزة",
    "type": "جائزة",
    "deadline": "2026-11-27",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مبدئي",
    "orgUrl": "https://www.mohesr.gov.ae/Ar/ImportantLinks/SiteAssets/HEA/index.aspx",
    "url": "https://www.albayan.ae/news/1564327",
@@ -244,7 +244,7 @@
     "تميز فردي",
     "تميز مؤسسي"
    ],
-   "checked": "2026-11-27",
+   "checked": "2026-11-28",
    "_id": "OPP-00018"
   },
   {
@@ -1560,10 +1560,10 @@
    "type": "دورة",
    "start": "2026-11-25",
    "end": "2026-11-26",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "orgUrl": "https://u.dscd.ae/3gstr01",
-   "checked": "2026-11-21",
+   "checked": "2026-11-28",
    "_id": "OPP-00119"
   },
   {
@@ -1742,10 +1742,10 @@
    "type": "قمة",
    "start": "2026-11-26",
    "end": "2026-11-26",
-   "status": "مفتوح",
+   "status": "مغلق",
    "verify": "مؤكد رسمياً",
    "url": "https://www.emaratalyoum.com/business/local/2026-11-12-1.2102141",
-   "checked": "2026-11-25",
+   "checked": "2026-11-28",
    "_id": "OPP-00131"
   },
   {
@@ -3253,6 +3253,27 @@
    "url": "https://emaratalyoum.com/business/local/2026-11-19-1.2104465",
    "checked": "2026-11-26",
    "_id": "OPP-00224"
+  },
+  {
+   "title": "ملتقى الابتكار الإعلامي في البحث العلمي (MSRF)",
+   "organizer": "مركز باحثي الإمارات للبحوث والدراسات",
+   "etype": "جهة مرصودة",
+   "emirate": "الشارقة",
+   "domain": "الإعلام",
+   "domains": [
+    "الإعلام",
+    "التعليم"
+   ],
+   "path": "حضور",
+   "type": "ملتقى",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "deadline": "2026-11-25",
+   "status": "مغلق",
+   "verify": "مبدئي",
+   "url": "https://emiratesscholar.com/ar/events/event-1074",
+   "checked": "2026-11-28",
+   "_id": "OPP-00225"
   }
  ]
 }
