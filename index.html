@@ -1296,7 +1296,7 @@ function calm(){
 }
 
 /* suggestion form: posts to the office's Power Automate flow when SUGGEST_URL is set, otherwise opens a ready email */
-const SUGGEST_URL="";
+const SUGGEST_URL="https://defaultc183e0fb53184577bea79a3761b61a.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/00/workflows/2422b1aa18d0443a8aaffbf8612b4e83/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=crCBA3h-U8WQO9B7coFvOWPgy5y5uzmnyKY49omb4yc";
 (function(){const f=$("sgForm");if(!f)return;const err=$("sgErr"),ok=$("sgOk"),btn=$("sgBtn");
   f.addEventListener("input",()=>{err.hidden=true});
   f.addEventListener("submit",async e=>{e.preventDefault();ok.hidden=true;
@@ -1307,7 +1307,7 @@ const SUGGEST_URL="";
     if(m&&!/^\S+@\S+\.\S+$/.test(m)){err.textContent="البريد الإلكتروني غير صحيح.";err.hidden=false;$("sg-mail").focus();return}
     const data={title:t,organizer:v("sg-o"),date:v("sg-d"),url:u,notes:n,name:v("sg-name"),email:m,sent:new Date().toISOString(),page:location.href};
     if(SUGGEST_URL){btn.disabled=true;btn.textContent="جارٍ الإرسال…";
-      try{const r=await fetch(SUGGEST_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)});
+      try{const r=await fetch(SUGGEST_URL,{method:"POST",headers:{"Content-Type":"text/plain;charset=UTF-8"},body:JSON.stringify(data)});
         if(!r.ok)throw 0;f.reset();ok.textContent="وصل اقتراحكم إلى المكتب، شكراً لكم.";ok.hidden=false}
       catch(x){err.textContent="تعذّر الإرسال الآن. أعيدوا المحاولة أو راسلونا على opc@almajles.gov.ae";err.hidden=false}
       btn.disabled=false;btn.textContent="إرسال إلى المكتب ←";return}
